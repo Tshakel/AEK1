@@ -4,12 +4,12 @@ try:
   from config import *
   os.system('pm2 start bot.py --name {} --interpreter python3.7 --interpreter-args -u'.format(BOT_ID))
 except Exception as e:
-  API_ID = 10332903
-  API_HASH = '17598f27636c07b3c8a14327828e6e02'
+  API_ID = 1783725
+  API_HASH = '6688fdb45dd54ef0af28730e8143cf8d'
 
   out ="""
-API_ID = 10332903
-API_HASH = '17598f27636c07b3c8a14327828e6e02'
+API_ID = 1783725
+API_HASH = '6688fdb45dd54ef0af28730e8143cf8d'
 """
   def Bot(TOKEN,method,data):
     url = "https://api.telegram.org/bot{}/{}".format(TOKEN,method)
